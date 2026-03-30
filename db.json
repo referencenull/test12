@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "sku": "MX-KTM-450SXF",
+    "name": "KTM 450 SX-F",
+    "category": "Bikes",
+    "brand": "KTM",
+    "price": 10499,
+    "quantity": 4,
+    "description": "Factory edition 450cc motocross race bike"
+  },
+  {
+    "id": 2,
+    "sku": "MX-HON-CRF450R",
+    "name": "Honda CRF450R",
+    "category": "Bikes",
+    "brand": "Honda",
+    "price": 9799,
+    "quantity": 6,
+    "description": "High-performance 450cc four-stroke motocross bike"
+  },
+  {
+    "id": 3,
+    "sku": "MX-YAM-YZ250F",
+    "name": "Yamaha YZ250F",
+    "category": "Bikes",
+    "brand": "Yamaha",
+    "price": 8699,
+    "quantity": 5,
+    "description": "Lightweight 250cc four-stroke MX bike"
+  },
+  {
+    "id": 4,
+    "sku": "MX-KAW-KX250",
+    "name": "Kawasaki KX250",
+    "category": "Bikes",
+    "brand": "Kawasaki",
+    "price": 8599,
+    "quantity": 3,
+    "description": "Competitive 250cc motocross machine"
+  },
+  {
+    "id": 5,
+    "sku": "MX-HUS-FC450",
+    "name": "Husqvarna FC 450",
+    "category": "Bikes",
+    "brand": "Husqvarna",
+    "price": 10699,
+    "quantity": 2,
+    "description": "Swedish engineering meets motocross dominance"
+  },
+  {
+    "id": 6,
+    "sku": "MX-HELM-FOX-V3",
+    "name": "Fox Racing V3 RS Helmet",
+    "category": "Helmets",
+    "brand": "Fox Racing",
+    "price": 549,
+    "quantity": 18,
+    "description": "MIPS-equipped MX helmet with carbon fibre shell"
+  },
+  {
+    "id": 7,
+    "sku": "MX-HELM-BELL-MX9",
+    "name": "Bell MX-9 Mips Helmet",
+    "category": "Helmets",
+    "brand": "Bell",
+    "price": 249,
+    "quantity": 22,
+    "description": "Lightweight dual-sport and MX helmet"
+  },
+  {
+    "id": 8,
+    "sku": "MX-GEAR-FOX-360",
+    "name": "Fox 360 Jersey & Pants Combo",
+    "category": "Riding Gear",
+    "brand": "Fox Racing",
+    "price": 189,
+    "quantity": 30,
+    "description": "Breathable MX jersey and pant set"
+  },
+  {
+    "id": 9,
+    "sku": "MX-GEAR-ALPINESTARS-TECH7",
+    "name": "Alpinestars Tech-7 Boots",
+    "category": "Riding Gear",
+    "brand": "Alpinestars",
+    "price": 479,
+    "quantity": 14,
+    "description": "Professional MX boots with reinforced ankle support"
+  },
+  {
+    "id": 10,
+    "sku": "MX-PROT-LEATT-CHEST",
+    "name": "Leatt 5.5 Pro HD Chest Protector",
+    "category": "Protection",
+    "brand": "Leatt",
+    "price": 219,
+    "quantity": 11,
+    "description": "Full-coverage chest and back protector"
+  },
+  {
+    "id": 11,
+    "sku": "MX-PROT-EVS-KNEEBRACE",
+    "name": "EVS Sports Axis Pro Knee Brace",
+    "category": "Protection",
+    "brand": "EVS Sports",
+    "price": 299,
+    "quantity": 8,
+    "description": "Hinged knee brace for extreme MX riding"
+  },
+  {
+    "id": 12,
+    "sku": "MX-TIRE-MAXXIS-IT-R",
+    "name": "Maxxis Maxx IT-R Rear Tyre 110/90-19",
+    "category": "Tyres",
+    "brand": "Maxxis",
+    "price": 89,
+    "quantity": 25,
+    "description": "Intermediate terrain rear MX tyre"
+  },
+  {
+    "id": 13,
+    "sku": "MX-TIRE-DUNLOP-MX33",
+    "name": "Dunlop MX33 Front Tyre 80/100-21",
+    "category": "Tyres",
+    "brand": "Dunlop",
+    "price": 74,
+    "quantity": 20,
+    "description": "Soft to intermediate front MX tyre"
+  },
+  {
+    "id": 14,
+    "sku": "MX-PART-RK-CHAIN",
+    "name": "RK 520MXZ4 Gold Chain",
+    "category": "Parts",
+    "brand": "RK",
+    "price": 69,
+    "quantity": 35,
+    "description": "Heavy-duty 520 MX O-ring chain, 120 links"
+  },
+  {
+    "id": 15,
+    "sku": "MX-PART-RENTHAL-BAR",
+    "name": "Renthal Fatbar 971 Handlebar",
+    "category": "Parts",
+    "brand": "Renthal",
+    "price": 109,
+    "quantity": 12,
+    "description": "Tapered 971 bend aluminium MX handlebar"
+  },
+  {
+    "id": 16,
+    "sku": "MX-PART-BOYESEN-REEDCAGE",
+    "name": "Boyesen RAD Valve Reed Cage",
+    "category": "Parts",
+    "brand": "Boyesen",
+    "price": 149,
+    "quantity": 9,
+    "description": "Performance reed valve system for 2-stroke engines"
+  },
+  {
+    "id": 17,
+    "sku": "MX-ACC-PROGRIP-GRIPS",
+    "name": "Pro Grip 920 MX Grips",
+    "category": "Accessories",
+    "brand": "Pro Grip",
+    "price": 19,
+    "quantity": 50,
+    "description": "Dual-compound MX grips with waffle pattern"
+  },
+  {
+    "id": 18,
+    "sku": "MX-ACC-ACERBIS-HANDGUARDS",
+    "name": "Acerbis X-Ultimate Hand Guards",
+    "category": "Accessories",
+    "brand": "Acerbis",
+    "price": 59,
+    "quantity": 27,
+    "description": "Full-wrap MX hand guards with alloy bar mount"
+  },
+  {
+    "id": 19,
+    "sku": "MX-ACC-POLISPORT-PLASTICS",
+    "name": "Polisport Restyle Plastic Kit – KTM SX",
+    "category": "Accessories",
+    "brand": "Polisport",
+    "price": 179,
+    "quantity": 7,
+    "description": "Complete body plastic kit for KTM SX models"
+  },
+  {
+    "id": 20,
+    "sku": "MX-ACC-BELLRAY-OIL",
+    "name": "Bel-Ray EXS 10W-50 Engine Oil 1L",
+    "category": "Accessories",
+    "brand": "Bel-Ray",
+    "price": 22,
+    "quantity": 60,
+    "description": "Full-synthetic 4-stroke engine oil for MX bikes"
+  }
+]
