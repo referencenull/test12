@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MotoStock – Inventory Manager</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,600;0,700;0,900;1,700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ======= HEADER ======= -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">🏍</span>
+        <span class="logo-text">Moto<strong>Stock</strong></span>
+      </div>
+      <div class="header-stats" id="headerStats">
+        <div class="stat-pill"><span id="statTotal">–</span> Products</div>
+        <div class="stat-pill low"><span id="statLow">–</span> Low Stock</div>
+      </div>
+      <button class="btn btn-primary" id="btnAddProduct">+ Add Product</button>
+    </div>
+  </header>
+
+  <!-- ======= MAIN ======= -->
+  <main class="main-content">
+
+    <!-- Controls bar -->
+    <div class="controls-bar">
+      <div class="search-wrap">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" placeholder="Search by name, brand or SKU…" />
+      </div>
+      <div class="filter-pills" id="categoryPills">
+        <!-- dynamically populated -->
+      </div>
+    </div>
+
+    <!-- Product grid -->
+    <div class="product-grid" id="productGrid">
+      <!-- dynamically populated -->
+    </div>
+
+    <div class="empty-state hidden" id="emptyState">
+      <div class="empty-icon">📦</div>
+      <p>No products found</p>
+    </div>
+
+  </main>
+
+  <!-- ======= ADD / EDIT MODAL ======= -->
+  <div class="modal-backdrop hidden" id="modalBackdrop">
+    <div class="modal">
+      <div class="modal-header">
+        <h2 id="modalTitle">Add Product</h2>
+        <button class="modal-close" id="modalClose">✕</button>
+      </div>
+      <form id="productForm">
+        <input type="hidden" id="fieldId" />
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="fieldName">Product Name *</label>
+            <input type="text" id="fieldName" required placeholder="e.g. KTM 450 SX-F" />
+          </div>
+          <div class="form-group">
+            <label for="fieldSku">SKU *</label>
+            <input type="text" id="fieldSku" required placeholder="e.g. MX-KTM-450SXF" />
+          </div>
+          <div class="form-group">
+            <label for="fieldBrand">Brand</label>
+            <input type="text" id="fieldBrand" placeholder="e.g. KTM" />
+          </div>
+          <div class="form-group">
+            <label for="fieldCategory">Category *</label>
+            <input type="text" id="fieldCategory" required placeholder="e.g. Bikes" />
+          </div>
+          <div class="form-group">
+            <label for="fieldPrice">Price ($)</label>
+            <input type="number" id="fieldPrice" min="0" step="0.01" placeholder="0.00" />
+          </div>
+          <div class="form-group">
+            <label for="fieldQuantity">Quantity</label>
+            <input type="number" id="fieldQuantity" min="0" step="1" placeholder="0" />
+          </div>
+          <div class="form-group form-group--full">
+            <label for="fieldDescription">Description</label>
+            <textarea id="fieldDescription" rows="2" placeholder="Short product description…"></textarea>
+          </div>
+        </div>
+        <div class="form-error hidden" id="formError"></div>
+        <div class="modal-actions">
+          <button type="button" class="btn btn-ghost" id="btnCancel">Cancel</button>
+          <button type="submit" class="btn btn-primary" id="btnSave">Save Product</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ======= DELETE CONFIRM MODAL ======= -->
+  <div class="modal-backdrop hidden" id="deleteBackdrop">
+    <div class="modal modal--sm">
+      <div class="modal-header">
+        <h2>Delete Product</h2>
+        <button class="modal-close" id="deleteClose">✕</button>
+      </div>
+      <p class="delete-msg">Are you sure you want to remove <strong id="deleteName"></strong> from inventory? This cannot be undone.</p>
+      <div class="modal-actions">
+        <button class="btn btn-ghost" id="deleteCancelBtn">Cancel</button>
+        <button class="btn btn-danger" id="deleteConfirmBtn">Delete</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= TOAST ======= -->
+  <div class="toast hidden" id="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

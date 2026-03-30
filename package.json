@@ -1,0 +1,13 @@
+{
+  "name": "moto-inventory",
+  "version": "1.0.0",
+  "description": "Motocross bike store inventory management web app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
